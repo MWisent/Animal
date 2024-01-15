@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a5e981-830a-40a5-8352-9d5ee08f4b4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animal/AnimalSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animal/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animal/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="91a5e981-830a-40a5-8352-9d5ee08f4b4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -57,6 +49,19 @@
       <option name="presentableId" value="Default" />
       <updated>1704477297795</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementacja dziedziczenia i polimorfizmu w modelu zoo&#10;&#10;- Dodano klasę bazową 'Animal' z polami 'size' (enum AnimalSize) i 'weight'.&#10;- Utworzono klasy pochodne 'Dog' i 'Fish', rozszerzające funkcjonalność 'Animal'.&#10;- Zaimplementowano w klasach 'Dog' i 'Fish' specyficzne metody i pola, wykorzystując koncepty dziedziczenia.&#10;- Wprowadzono enum 'AnimalSize' z wartościami SMALL, MEDIUM, BIG, ułatwiający określenie rozmiaru zwierzęcia.&#10;- Stworzono klasę 'Zoo', która zarządza kolekcją obiektów 'Animal', demonstrując wykorzystanie polimorfizmu.&#10;- Polimorfizm zastosowano poprzez przechowywanie różnych typów zwierząt (Dog, Fish) w tablicy typu 'Animal'.&#10;- Przetestowano interakcje pomiędzy klasami, zapewniając poprawne działanie dziedziczenia i polimorfizmu.">
+      <option name="closed" value="true" />
+      <created>1705011575778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705011575778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementacja dziedziczenia i polimorfizmu w modelu zoo&#10;&#10;- Dodano klasę bazową 'Animal' z polami 'size' (enum AnimalSize) i 'weight'.&#10;- Utworzono klasy pochodne 'Dog' i 'Fish', rozszerzające funkcjonalność 'Animal'.&#10;- Zaimplementowano w klasach 'Dog' i 'Fish' specyficzne metody i pola, wykorzystując koncepty dziedziczenia.&#10;- Wprowadzono enum 'AnimalSize' z wartościami SMALL, MEDIUM, BIG, ułatwiający określenie rozmiaru zwierzęcia.&#10;- Stworzono klasę 'Zoo', która zarządza kolekcją obiektów 'Animal', demonstrując wykorzystanie polimorfizmu.&#10;- Polimorfizm zastosowano poprzez przechowywanie różnych typów zwierząt (Dog, Fish) w tablicy typu 'Animal'.&#10;- Przetestowano interakcje pomiędzy klasami, zapewniając poprawne działanie dziedziczenia i polimorfizmu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacja dziedziczenia i polimorfizmu w modelu zoo&#10;&#10;- Dodano klasę bazową 'Animal' z polami 'size' (enum AnimalSize) i 'weight'.&#10;- Utworzono klasy pochodne 'Dog' i 'Fish', rozszerzające funkcjonalność 'Animal'.&#10;- Zaimplementowano w klasach 'Dog' i 'Fish' specyficzne metody i pola, wykorzystując koncepty dziedziczenia.&#10;- Wprowadzono enum 'AnimalSize' z wartościami SMALL, MEDIUM, BIG, ułatwiający określenie rozmiaru zwierzęcia.&#10;- Stworzono klasę 'Zoo', która zarządza kolekcją obiektów 'Animal', demonstrując wykorzystanie polimorfizmu.&#10;- Polimorfizm zastosowano poprzez przechowywanie różnych typów zwierząt (Dog, Fish) w tablicy typu 'Animal'.&#10;- Przetestowano interakcje pomiędzy klasami, zapewniając poprawne działanie dziedziczenia i polimorfizmu." />
   </component>
 </project>
