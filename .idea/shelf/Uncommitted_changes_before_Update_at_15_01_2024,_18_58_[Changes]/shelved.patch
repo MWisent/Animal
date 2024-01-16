@@ -1,0 +1,18 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>### IntelliJ IDEA ###\nout/\n!**/src/main/**/out/\n!**/src/test/**/out/\n\n### Eclipse ###\n.apt_generated\n.classpath\n.factorypath\n.project\n.settings\n.springBeans\n.sts4-cache\nbin/\n!**/src/main/**/bin/\n!**/src/test/**/bin/\n\n### NetBeans ###\n/nbproject/private/\n/nbbuild/\n/dist/\n/nbdist/\n/.nb-gradle/\n\n### VS Code ###\n.vscode/\n\n### Mac OS ###\n.DS_Store
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 191cc950f1b2a7e20c62edea3f8425c18b561c63)
++++ b/.gitignore	(date 1705341496650)
+@@ -26,4 +26,5 @@
+ .vscode/
+ 
+ ### Mac OS ###
+-.DS_Store
+\ No newline at end of file
++.DS_Store
++
